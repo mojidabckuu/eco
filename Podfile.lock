@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (4.0.1)
+  - ObjectMapper (2.2.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - Alamofire (from `https://github.com/mojidabckuu/Alamofire`, branch `model`)
+  - ObjectMapper
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: model
+    :git: https://github.com/mojidabckuu/Alamofire
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 907b2535872f26ef2d1f5e5cacc68dfe1f560436
+    :git: https://github.com/mojidabckuu/Alamofire
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Alamofire: 6b5fcadb9ced536db37d76109066fb6848eb20be
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+
+PODFILE CHECKSUM: 766dbde23bbdfe710cd67803382b668b801e9c36
+
+COCOAPODS: 1.1.1
